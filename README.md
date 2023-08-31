@@ -15,6 +15,7 @@ Power-ups are essential elements in our game as they provide players with tempor
 
 ### Enemy Wave Management with State Pattern
 ![Sate](https://github.com/GonzaVissDev/Generic-Series-Space-Shooter/assets/57195786/a65035b3-e3e4-4b46-9741-283f8d3a6dd9)
+
 The gameplay in our game consists of various enemy waves, each with its own unique behavior and challenges. To achieve this, we've implemented the State pattern. Each state represents a different phase of the game, such as "Initial Wave," "Intense Wave," and "Final Boss." This enables us to easily control enemy behavior, difficulty, and wave frequency as players progress through the game.
 
 ## Installation and Usage Instructions
