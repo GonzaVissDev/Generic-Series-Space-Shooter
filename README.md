@@ -5,18 +5,20 @@ Welcome to Generic Series: Space Shooter! This repository hosts the source code 
 ## Key Features
 
 ### Efficient Bullet Management with Pool Object
+![Pool](https://github.com/GonzaVissDev/Generic-Series-Space-Shooter/assets/57195786/7aa8e4f9-bc46-49ef-b07e-b1b597406700)
 
 One of the main concerns while developing a game is resource efficiency. In this project, we've implemented a smart solution for bullet management using the "Pool Object" pattern. Instead of instantiating and destroying bullets each time they are fired, we've created a pool of pre-instantiated bullets that get recycled. This significantly improves performance by avoiding the overhead of constant creation and destruction, providing a smoother gameplay experience.
 
 ### Factory Pattern for Power-Up Creation
+![Factory](https://github.com/GonzaVissDev/Generic-Series-Space-Shooter/assets/57195786/46885763-967b-4c91-815d-85eab3392798)
 Power-ups are essential elements in our game as they provide players with temporary advantages that increase fun and strategy. To handle power-up creation, we've applied the Factory pattern. This allows us to dynamically create different types of power-ups, such as temporary shields, speed boosts, and more. Using this pattern makes our code scalable and easy to maintain, enabling us to add new power-ups without altering the core game flow.
 
 ### Enemy Wave Management with State Pattern
-
+![Sate](https://github.com/GonzaVissDev/Generic-Series-Space-Shooter/assets/57195786/a65035b3-e3e4-4b46-9741-283f8d3a6dd9)
 The gameplay in our game consists of various enemy waves, each with its own unique behavior and challenges. To achieve this, we've implemented the State pattern. Each state represents a different phase of the game, such as "Initial Wave," "Intense Wave," and "Final Boss." This enables us to easily control enemy behavior, difficulty, and wave frequency as players progress through the game.
 
 ## Installation and Usage Instructions
-1. Clone this repository to your local machine using the command: `git clone https://github.com/your-username/your-repo.git`
+1. Clone this repository to your local machine using the command: `git clone https://github.com/your-username/your-repo.git](https://github.com/GonzaVissDev/Generic-Series-Space-Shooter.git)`
 2. Open Unity [2021.3.8f1].
 3. In Unity, open the project and navigate to the `Assets` folder.
 4. Explore the project structure, especially the `Scripts` folder, where you'll find scripts implementing the mentioned concepts.
